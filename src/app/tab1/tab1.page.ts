@@ -77,7 +77,7 @@ export class Tab1Page {
     const alert = await this.AlertController.create({
       
       header: 'Meus Favoritos',
-      message: 'Deseja realmente favoritar o tecno?',
+      message: 'Deseja realmente favoritar o assunto?',
       buttons: [
         {
           text: 'Não',
